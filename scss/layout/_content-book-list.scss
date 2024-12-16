@@ -1,0 +1,18 @@
+section{
+    background-color: $bckColorBookList;
+    margin: 40px;
+    padding: 40px;
+}
+.block{
+    padding: 10px;
+}
+article{
+    padding: 20px;
+    border: 1px solid $bckColorForm;
+    border-radius: 15px;
+    height: 100%;
+}
+.message{
+    text-align: center;
+    font-size: $fontSize2;
+}
