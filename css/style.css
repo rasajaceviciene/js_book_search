@@ -11869,6 +11869,7 @@ h3, .h3 {
   font-weight: 600;
   margin-bottom: 30px;
   overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 p {
@@ -11902,7 +11903,7 @@ form {
 .fa-solid {
   font-size: 26px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .fa-solid {
     display: none;
   }
@@ -11916,7 +11917,7 @@ input {
   margin: 10px;
   padding-left: 30px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   input {
     width: 600px;
   }
