@@ -11868,6 +11868,7 @@ h3, .h3 {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 30px;
+  overflow-wrap: break-word;
 }
 
 p {
@@ -11923,8 +11924,14 @@ input {
 
 section {
   background-color: rgb(147, 154, 147);
-  margin: 40px;
-  padding: 40px;
+  margin: 20px;
+  padding: 20px;
+}
+@media screen and (min-width: 576px) {
+  section {
+    margin: 40px;
+    padding: 40px;
+  }
 }
 
 .block {

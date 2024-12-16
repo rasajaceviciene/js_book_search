@@ -1,7 +1,11 @@
 section{
     background-color: $bckColorBookList;
-    margin: 40px;
-    padding: 40px;
+    margin: 20px;
+    padding: 20px;
+    @media screen and (min-width:576px){
+        margin: 40px;
+        padding: 40px;
+    } 
 }
 .block{
     padding: 10px;
